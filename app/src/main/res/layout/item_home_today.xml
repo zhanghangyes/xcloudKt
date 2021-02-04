@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_home_special"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/dp17"
+    android:layout_marginRight="@dimen/dp17"
+    android:layout_marginBottom="@dimen/dp10"
+    android:background="@drawable/home_today_background"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/iv_picture"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp122"
+        android:layout_marginLeft="@dimen/dp1"
+        android:layout_marginTop="@dimen/dp1"
+        android:layout_marginRight="@dimen/dp1"
+        android:paddingLeft="@dimen/dp6"
+        android:paddingTop="@dimen/dp6"
+        android:paddingRight="@dimen/dp6" />
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iv_picture"
+        android:layout_marginLeft="@dimen/dp12"
+        android:layout_marginTop="@dimen/dp10"
+        android:layout_marginRight="@dimen/dp20"
+        android:layout_toLeftOf="@+id/tv_lock"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:text="@string/app_name"
+        android:textColor="@color/color121"
+        android:textSize="@dimen/font_size_15" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_name"
+        android:layout_marginLeft="@dimen/dp12"
+        android:layout_marginTop="@dimen/dp8"
+        android:layout_marginRight="@dimen/dp20"
+        android:layout_marginBottom="@dimen/dp10"
+        android:layout_toLeftOf="@+id/tv_lock"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:text="@string/app_name"
+        android:textColor="@color/color99"
+        android:textSize="@dimen/font_size_12" />
+
+    <TextView
+        android:id="@+id/tv_lock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iv_picture"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="@dimen/dp18"
+        android:layout_marginRight="@dimen/dp12"
+        android:background="@drawable/shap_blue_13b"
+        android:paddingLeft="@dimen/dp10"
+        android:paddingTop="@dimen/dp5"
+        android:paddingRight="@dimen/dp10"
+        android:paddingBottom="@dimen/dp5"
+        android:text="@string/lock_details"
+        android:textColor="@color/color13B1"
+        android:textSize="@dimen/font_size_11" />
+
+
+</RelativeLayout>

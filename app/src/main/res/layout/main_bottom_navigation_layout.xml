@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dp54"
+    android:background="@drawable/home_btn_all"
+    android:clipChildren="false"
+    android:orientation="horizontal">
+
+    <RelativeLayout
+        android:id="@+id/tab_btn_main"
+        android:layout_width="@dimen/dp0"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/tv1"
+            style="@style/main_tab_button"
+            android:drawableTop="@drawable/tab_home"
+            android:text="@string/navigation_bottom_home" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/tab_btn_member"
+        android:layout_width="@dimen/dp0"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/tv2"
+            style="@style/main_tab_button"
+            android:drawableTop="@drawable/tab_member"
+            android:text="@string/navigation_bottom_getcoupon" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/star_rl"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:clipChildren="false">
+
+        <ImageView
+            android:id="@+id/star_im"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="-22dp"
+            android:src="@drawable/home_btn_zxing" />
+
+        <TextView
+            android:id="@+id/tab_btn_work"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="@dimen/dp3"
+            android:text="@string/member"
+            android:textColor="@color/main_bottom_button"
+            android:textSize="@dimen/font_size_10" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/tab_btn_im"
+        android:layout_width="@dimen/dp0"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/tv4"
+            style="@style/main_tab_button"
+            android:drawableTop="@drawable/tab_im"
+            android:text="@string/home_integral" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/tab_btn_mine"
+        android:layout_width="@dimen/dp0"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:clipChildren="false">
+
+        <TextView
+            android:id="@+id/tv5"
+            style="@style/main_tab_button"
+            android:drawableTop="@drawable/tab_mine"
+            android:text="@string/navigation_bottom_mine" />
+
+    </RelativeLayout>
+
+</LinearLayout>

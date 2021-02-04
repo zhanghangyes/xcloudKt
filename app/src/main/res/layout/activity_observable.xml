@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.xcloudkt.view.MultipleStatusView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/multipleStatusView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="80dp"
+        android:text="@string/app_name" />
+
+
+</com.example.xcloudkt.view.MultipleStatusView>
